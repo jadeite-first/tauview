@@ -1,0 +1,15 @@
+    Updating crates.io index
+    Updating git repository `https://github.com/tauri-apps/plugins-workspace`
+error: failed to get `tauri-plugin-window-state` as a dependency of package `tauview v0.0.15 (/Users/user/github/tauview/src-tauri)`
+
+Caused by:
+  failed to load source for dependency `tauri-plugin-window-state`
+
+Caused by:
+  Unable to update https://github.com/tauri-apps/plugins-workspace?branch=v1#dba37222
+
+Caused by:
+  failed to create directory `/Users/user/.cargo/git/db/plugins-workspace-bac95421cc662c04`
+
+Caused by:
+  Permission denied (os error 13)
